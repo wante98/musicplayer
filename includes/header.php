@@ -2,6 +2,7 @@
 include("config.php");
 include("classes/Artist.php");
 include("classes/Album.php");
+include("classes/Song.php");
 //
 // //session_destroy(); LOGOUT
 //
@@ -12,7 +13,9 @@ include("classes/Album.php");
 // 	header("Location: register.php");
 // }
 ?>
-<html>
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
 <head>
 	<title>歡迎使用Musicplayer!</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
