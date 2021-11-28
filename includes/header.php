@@ -19,8 +19,17 @@ include("classes/Song.php");
 <head>
 	<title>歡迎使用Musicplayer!</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/js/script.js"></script>
 </head>
 <body>
+	<script>
+	//var audioElement = new Audio();
+	//audioElement.setTrack("assets/music/bensound-acousticbreeze.mp3");
+	//audioElement.audio.play();
+
+	</script>
+
 <div id="mainContainer">
 	<div id="topContainer">
 		<?php include("navBarContainer.php"); ?>
