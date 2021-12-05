@@ -8,10 +8,11 @@ include("classes/Song.php");
 //
 // if(isset($_SESSION['userLoggedIn'])) {
 // 	$userLoggedIn = $_SESSION['userLoggedIn'];
+// echo "<script>userLoggedIn = $userLoggedIn</script>";
 // }
 // else {
 // 	header("Location: register.php");
-// }
+// } 	<?php include("navBarContainer.php");
 ?>
 <!DOCTYPE html>
 
@@ -32,7 +33,7 @@ include("classes/Song.php");
 
 <div id="mainContainer">
 	<div id="topContainer">
-		<?php include("navBarContainer.php"); ?>
+
 	</div>
 	<div id="mainViewContainer">
 		<div id="mainContent">

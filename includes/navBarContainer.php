@@ -1,9 +1,10 @@
 <div id="navBarContainer">
   <nav class="navBar">
+        <span href="index.php" role="link" tabindex="0" class="logo">
+        <!-- //全局属性 指示其元素是否可以聚焦，以及它是否/在何处参与顺序键盘导航 <span href="index.php" class="logo" onclick="openPage('index.php')">--->
 
-        <a href="index.php" class="logo">
           <img src="assets/images/icons/logo.png">
-        </a>
+        </span>
 
 
         <div class="group">

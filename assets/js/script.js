@@ -1,8 +1,24 @@
-var currentPlaylist = [];
+var currentPlaylist = []; //現在播放清單
+var shufflePlaylist = []; //shuffle模式的播放清單
+var tempPlaylist = []; //
 var audioElement;
 var mouseDown = false;
 var currentIndex = 0;
+var repeat =false;
+var shuffle = false;
+var userLoggedIn;
 //console.log("SANDWICH"); // **** ADD THIS LINE ****
+
+// function openPage(url) {
+// 	if(url.indexOf("?") ==-1){
+// 		url = url +"?";
+// 	}
+// 	var encodedUrl = encodeURI(url +"&userLoggedIn" + userLoggedIn);
+// console.log(encodeURI);
+// 	$("#mainContent").load(encodedUrl);
+// $("body").scrollTop(0);
+//history.pushState(null,null,url);
+// } //encodeedUrl ??
 
 function formatTime(seconds) {
 

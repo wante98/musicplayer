@@ -1,4 +1,4 @@
-<?php include ("includes/header.php"); ?>
+<?php include ("includes/includedFiles.php"); ?>
 
 <h1 class="pageHeadingBig">為你精選</h1>
 
@@ -17,5 +17,3 @@
 		}
 	?>
 </div>
-
-<?php include ("includes/footer.php"); ?>

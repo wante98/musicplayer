@@ -28,6 +28,9 @@
 		public function getTitle() {
 			return $this->title;
 		}
+		public function getId() {
+			return $this->id;
+		}
 
 		public function getArtist() {
 			return new Artist($this->con, $this->artistId);
@@ -52,14 +55,15 @@
 		public function getGenre() {
 			return $this->genre;
 		}
-    public function getId() {
 
-			$query = mysqli_query($this->con, "SELECT id FROM songs WHERE album='$this->id' ORDER BY albumOrder ASC");
-			$array = array();
-			while($row = mysqli_fetch_array($query)) {
-			array_push($array, $row['id']);
-		}
+    // public function getId() {
+		//
+		// 	$query = mysqli_query($this->con, "SELECT id FROM songs WHERE album='$this->id' ORDER BY albumOrder ASC");
+		// 	$array = array();
+		// 	while($row = mysqli_fetch_array($query)) {
+		// 	array_push($array, $row['id']);
+		// }
 
-	}
+	
 }
 ?>
